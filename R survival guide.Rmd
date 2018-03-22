@@ -1,5 +1,5 @@
 ---
-title: "Margins and Multi-plotting"
+title: "R survival guide (an introduction to the vocabulary and grammar of R)"
 output:
   github_document:
     toc: true

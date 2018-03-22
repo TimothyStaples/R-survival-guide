@@ -1,4 +1,4 @@
-Margins and Multi-plotting
+R survival guide (an introduction to the vocabulary and grammar of R)
 ================
 
 -   [Introduction](#introduction)
@@ -1545,7 +1545,7 @@ sd
     ## function (x, na.rm = FALSE) 
     ## sqrt(var(if (is.vector(x) || is.factor(x)) x else as.double(x), 
     ##     na.rm = na.rm))
-    ## <bytecode: 0x3055bd0>
+    ## <bytecode: 0x37817c8>
     ## <environment: namespace:stats>
 
 Functions work pretty simply: they take in objects (as "arguments"), do things to those objects ("expressions", which are just lines of R code) and returns an object at the end.
@@ -2116,14 +2116,14 @@ loop.time / vectorised.time
 ```
 
     ##     user   system  elapsed 
-    ## 3.416667      NaN 3.346939
+    ## 4.557692      Inf 4.634615
 
 ``` r
 sapply.time / vectorised.time
 ```
 
     ##     user   system  elapsed 
-    ## 5.708333      NaN 5.591837
+    ## 4.653846      NaN 4.653846
 
 This means that the loop and sapply took roughly four times as long to do the same operation.
 
